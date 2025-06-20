@@ -1,0 +1,220 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color:ghostwhite;
+    margin: 0;
+    font-family:system-ui, sans-serif;
+}
+
+#container{
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    margin-left:5%;
+    padding-top: 5.5%;
+    padding-bottom: 3%;
+}
+
+/* NAVBAR */
+#navbar{
+width: 100%;
+height: 90px;
+background-color:  white;
+border-bottom:2px solid black ;
+position: fixed;
+overflow: hidden;
+z-index: 1;
+}
+
+
+#nav-logo-img{
+    height: 75px;
+    width: 75px;
+    
+}
+#nav-logo{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+#nav-logo a:hover{
+    opacity: 0.8;
+}
+
+#baslik{
+    display:inline-block ;
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 43%;
+}   
+#baslik a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0.3rem 0.5rem #555;
+    
+}
+#baslik a:hover{
+    opacity: 0.8;
+}
+
+#n-tabela{
+    display: inline-block;
+    
+    
+}
+#n-t-img{
+    height: 75px;
+    width: 75px;
+    float: right;
+
+}
+#n-options{
+    display:block;
+    font-size:20px;
+    float:right;
+}
+ 
+/* GİRİŞ */
+
+#video-container{
+    max-width: 100%;
+    display: inline;
+    
+}
+#giris-video-mp4{
+   width: 100%;
+   height: 500px; 
+   object-fit: cover;  
+}
+#video-text-container{
+    display: inline-block;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 12%;
+    padding-left: 5%;
+}
+#video-text-1{
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0.3rem 0.5rem black;
+}
+#video-text-2{
+    color: wheat;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem black;
+    margin-right: 6%;
+}
+
+.giris{
+    height: 100%;
+    width:80% ;
+    background-color:#F2F2F2;
+    margin-left: 9%;
+    margin-top:6%;
+    border-radius: 50px;
+    
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: box-shadow 0.3s ease;
+    transition: all 1s ease;
+
+}
+.giris:hover{
+    transform: scale(1.01);
+    background-color:#e2dfdf ;
+}
+
+.giris-foto{
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 3%;
+   
+}
+.giris-foto:hover{
+    opacity: 0.9;
+}
+.giris-text{
+    font-size: 18px;
+    margin-top:2%;
+    margin-right:2%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+    font-family: system-ui;
+}
+#giris-foto-2{
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+
+#giris-foto-2:hover{
+    opacity: 0.9;
+}
+.giris-text-2{
+    font-size: 18px;
+    margin-top:2%;
+    margin-right:2%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+    font-family: system-ui;
+}
+
+#giris-menu{
+    font-size: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    text-align: center;
+}
+
+#alt-menu{
+    margin-top:20px ;
+    list-style-type: none;
+    width: 65%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.menu-link{
+    display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid darkgray;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  transition: all 1s ease;
+}
+.menu-link:hover{
+    background-color: cadetblue;
+    
+}
+
+/* Footer */
+
+#footer{
+    background-color:#a2a2a2 ;
+    margin-top: 1%;
+    height: 5%;
+}
+
+.footer-img{
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#footer p{
+    display: inline-block;
+    font-size: 50px;
+}
+
+

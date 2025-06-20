@@ -1,0 +1,1164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background-color: white;
+
+}
+
+#navbar {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 40px;
+    font-family: 'verdana', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+#navbar span {
+    color: black;
+    text-shadow: 0 0.2rem 0.4rem gray;
+    
+
+}
+
+
+
+
+#container {
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 50px;
+}
+
+#icindekiler {
+    width: 23%;
+    float: right;
+    position: sticky;
+    top: 0px;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    
+}
+
+
+#tablo li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+
+#tablo li {
+    list-style-type: none;
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 50px;
+    margin: 1%;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+    
+
+}
+
+#tablo li:hover {
+    transition: box-shadow 0.3s ease;
+    background-color: cadetblue;
+    transform: scale(1.07);
+}
+
+#tablo li a:hover {
+    color: white;
+
+}
+
+#icindekiler b {
+    margin-left: 3%;
+    margin-bottom: 10px;
+}
+
+/* POST-1 */
+
+#post-1 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: box-shadow 0.3s ease;
+    transition: all 1s ease;
+}
+
+#post-1:hover {
+    transform: scale(1.01);
+    background-color:#e2dfdf ;
+}
+
+
+
+/* POST-2 */
+
+#post-2 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+    
+}
+
+#post-2 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-2 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-2:hover {
+    transform: scale(1.01);
+    background-color:#e2dfdf ;
+    
+}
+
+#post-2 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+}
+
+#post-2 p {
+    float: left;
+    font-size: 17px;
+}
+
+#post-2 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-2 img:hover {
+    opacity: 0.9;
+}
+
+/* POST-3 */
+
+#post-3 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-3 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-3 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-3:hover {
+    transform: scale(1.01);
+}
+
+#post-3 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+#post-3 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-3 img:hover {
+    opacity: 0.9;
+}
+
+
+/* POST-4 */
+
+#post-4 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-4 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-4 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-4 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+    
+}
+
+#post-4 img:hover {
+    opacity: 0.9;
+}
+
+#post-4:hover {
+    transform: scale(1.01);
+}
+
+#post-4 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+
+/* POST 5 */
+
+#post-5 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-5 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-5 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-5 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-5 img:hover {
+    opacity: 0.9;
+}
+
+#post-5:hover {
+    transform: scale(1.01);
+}
+
+#post-5 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+}
+
+/* POST 6 */
+
+#post-6 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-6 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-6 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-6 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-6 img:hover {
+    opacity: 0.9;
+}
+
+#post-6:hover {
+    transform: scale(1.01);
+}
+
+#post-6 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+}
+
+/* POST-7 */
+
+#post-7 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-7 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-7 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-7 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-7 img:hover {
+    opacity: 0.9;
+}
+
+#post-7:hover {
+    transform: scale(1.01);
+}
+
+#post-7 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+
+/* POST-8 */
+
+#post-8 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-8 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-8 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-8 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-8 img:hover {
+    opacity: 0.9;
+}
+
+#post-8:hover {
+    transform: scale(1.01);
+}
+
+#post-8 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+
+/* POST-9 */
+
+#post-9 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-9 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-9 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-9 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-9 img:hover {
+    opacity: 0.9;
+}
+
+#post-9:hover {
+    transform: scale(1.01);
+}
+
+#post-9 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST-10 */
+
+#post-10 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+#post-10 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-10 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-10 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-10 img:hover {
+    opacity: 0.9;
+}
+
+#post-10:hover {
+    transform: scale(1.01);
+}
+
+#post-10 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+
+/* POST-11 */
+
+#post-11 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-11 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-11 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-11 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-11 img:hover {
+    opacity: 0.9;
+}
+
+#post-11:hover {
+    transform: scale(1.01);
+}
+
+#post-11 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 12 */
+#post-12 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-12 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-12 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-12 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-12 img:hover {
+    opacity: 0.9;
+}
+
+#post-12:hover {
+    transform: scale(1.01);
+}
+
+#post-12 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 13*/
+#post-13 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-13 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-13 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-13 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-13 img:hover {
+    opacity: 0.9;
+}
+
+#post-13:hover {
+    transform: scale(1.01);
+}
+
+#post-13 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 14*/
+#post-14 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-14 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-14 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-14 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-14 img:hover {
+    opacity: 0.9;
+}
+
+#post-14:hover {
+    transform: scale(1.01);
+}
+
+#post-14 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 15*/
+#post-15 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-15 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-15 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-15 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-15 img:hover {
+    opacity: 0.9;
+}
+
+#post-15:hover {
+    transform: scale(1.01);
+}
+
+#post-15 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 16*/
+#post-16 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-16 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-16 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-16 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-16 img:hover {
+    opacity: 0.9;
+}
+
+#post-16:hover {
+    transform: scale(1.01);
+}
+
+#post-16 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 17*/
+#post-17 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-17 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-17 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-17 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-17 img:hover {
+    opacity: 0.9;
+}
+
+#post-17:hover {
+    transform: scale(1.01);
+}
+
+#post-17 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 18*/
+#post-18 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-18 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-18 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-18 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-18 img:hover {
+    opacity: 0.9;
+}
+
+#post-18:hover {
+    transform: scale(1.01);
+}
+
+#post-18 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 13*/
+#post-19 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-19 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-19 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-19 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-19 img:hover {
+    opacity: 0.9;
+}
+
+#post-19:hover {
+    transform: scale(1.01);
+}
+
+#post-19 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+/* POST 20*/
+#post-20 {
+    margin-top: 50px;
+    width: 80%;
+    text-align: none;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+#post-20 a{
+    text-decoration: none;
+    color: chocolate;
+}
+#post-20 a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#post-20 img {
+    border-radius: 20px;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 0.2rem 0.4rem darkgrey;
+    transition: opacity 200ms ease;
+}
+
+#post-20 img:hover {
+    opacity: 0.9;
+}
+
+#post-20:hover {
+    transform: scale(1.01);
+}
+
+#post-20 h1 {
+    text-shadow: 0 0.3rem 0.4rem grey;
+    font-size: 40px;
+
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: none;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-bottom: 3px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+
+.dropdown-content a:hover {
+    transition: box-shadow 0.3s ease;
+    background-color: cadetblue;
+    transform: scale(1.07);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+.dropbtn:hover{
+    background-color: gainsboro;
+   
+}
+
+#basa-don a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease;
+    border-radius: 75%;
+}
+#basa-don a:hover{
+    transform: scale(1.01);
+    background-color: gray;
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Malatya Tarihçesi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="navbar">
+        <span>Video Ve Fotoğraflar</span>
+        <div class="dropdown" style="float:left;">
+            <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+            <div class="dropdown-content" style="left:0;">
+                <a href="../index.html">Ana Sayfa</a>
+                <a href="../tarihce/index.html">Tarihçe</a>
+                <a href="../Yer/index.html">Kalınacak Yerler ve Restorantlar</a>
+                <a href="../Turist/index.html">Turistlik Gezilecek Yerler</a>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="container">
+
+        <div class="gallery-container">
+
+            <div class="kutu">
+                <img src="img/malatya-hakkında.jpg" alt="Malatya Hakkında" class="kutu-image" onclick="openModal(this)">
+                <a href="https://malatya.tarimorman.gov.tr/Menu/18/Malatya-Hakkinda" target="_blank">
+                    <p>Malatya Hakkında</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-konum.webp" alt="Malatya Konum" class="kutu-image" onclick="openModal(this)">
+                <a href="https://www.milliyet.com.tr/egitim/haritalar/malatya-haritasi-malatya-ilceleri-nelerdir-malatya-ilinin-nufusu-kactir-kac-ilcesi-vardir-6311205"
+                    target="_blank">
+                    <p>Malatya Konum</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-turizim.jpg" alt="Malatya Turizim" class="kutu-image" onclick="openModal(this)">
+                <a href="http://www.malatya.gov.tr/turizm" target="_blank">
+                    <p>Malatya Turizim</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatyanın-ilçeleri-battalgazi.jpeg" alt="Malatya İlçeleri " class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.carliferentacar.com/blog/malatya%E2%80%99nin-ilceleri" target="_blank">
+                    <p>Malatya'nın İlçeleri</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+
+            <div class="kutu">
+                <img src="img/malatya-sehir.jpg" alt="Malatya" class="kutu-image" onclick="openModal(this)">
+                <a href="https://tr.wikipedia.org/wiki/Malatya" target="_blank">
+                    <p>Malatya</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/arslantepe-hoyugu.webp" alt="Arslantepe Hoyuğu (Malatya)" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://kvmgm.ktb.gov.tr/TR-291002/arslantepe-hoyugu-malatya.html" target="_blank">
+                    <p>Arslantepe Hoyuğu (Malatya)</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/anemon-hotel-bina.jpg" alt="Anemon Hotel (Malatya)" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://anemonhotels.com/hotel/anemon-malatya/" target="_blank">
+                    <p>Anemon Hotel (Malatya)</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/arapgir-kozluk-cayi-kanyonu-51127.webp" alt="Arapgir Kozluk Çayı Kanyonu (Malatya)"
+                    class="kutu-image" onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/arapgir-kozluk-cayi-kanyonu"
+                    target="_blank">
+                    <p>Arapgir Kozluk Çayı Kanyonu (Malatya)</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/Ahmet-bey-yöresel-yemekleri.jpg" alt="Ahmet Bey Yöresel Yemekleri" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.tripadvisor.com.tr/Restaurant_Review-g298018-d8525456-Reviews-Ahmet_Bey_Yoresel_Ev_Yemekleri-Malatya.html"
+                    target="_blank">
+                    <p>Ahmet Bey Yöresel Yemekleri</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/ali-dayinin-yeri.jpg" alt="Ali Dayının Yeri" class="kutu-image" onclick="openModal(this)">
+                <a href="https://www.tripadvisor.com.tr/Restaurant_Review-g298018-d2681275-Reviews-Ali_Dayi_Balik_Restaurant-Malatya.html"
+                    target="_blank">
+                    <p>Ali Dayının Yeri</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/beskonaklar-etnografya-muzesi-51122.webp" alt="Beşkonaklar Etnografya Müzesi"
+                    class="kutu-image" onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/bes-konaklar" target="_blank">
+                    <p>Beşkonaklar Etnografya Müzesi</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/hacibaba-lokantasi-malatya.jpg" alt="Hacıbaba Lokantası (Malatya)" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/bes-konaklar" target="_blank">
+                    <p>Hacıbaba Lokantası (Malatya)</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/karakaya-baraji-golu-51157.webp" alt="Karakaya Baraji Gölü" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://tr.wikipedia.org/wiki/Karakaya_Baraj%C4%B1_ve_Hidroelektrik_Santrali" target="_blank">
+                    <p>Karakaya Baraji Gölü</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-arkeoloji-muzesi-51121.webp" alt="Malatya Arkeoloji Müzesi" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/malatya-muzesi" target="_blank">
+                    <p>Malatya Arkeoloji Müzesi</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-ataturk-evi-51123.webp" alt="Malatya Atatürk Evi" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/ataturk-evi-muzesi642630"
+                    target="_blank">
+                    <p>Malatya Atatürk Evi</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-gunpinar-selalesi-ve-kanyonu-51152.webp" alt="Malatya Gürpınar Şelalesi"
+                    class="kutu-image" onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/gunpinar-selalesi"
+                    target="_blank">
+                    <p>Malatya Gürpınar Şelalesi</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-hurriyet-parki-51098.webp" alt="Malatya Hürriyet Parkı " class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.tripadvisor.com.tr/Attraction_Review-g298018-d23064227-Reviews-Hurriyet_ParkI-Malatya.html"
+                    target="_blank">
+                    <p>Malatya Hürriyet Parkı</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-kalesi-51125.webp" alt="Malatya Kalesi " class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.battalgazi.bel.tr/2023/12/11/eski-malatya-surlari-ve-kalesi/" target="_blank">
+                    <p>Malatya Kalesi</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-kudret-havuzu-51101.webp" alt="Malatya Kudret Havuzu " class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://somuncubabaturbesi.com/kudret-havuzu-darende-malatya/" target="_blank">
+                    <p>Malatya Kudret Havuzu</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-levent-vadisi-51102.webp" alt="Malatya Levent Vadisi" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/levent-vadisi" target="_blank">
+                    <p>Malatya Levent Vadisi</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-tohma-kanyonu-51100.webp" alt="Malatya Tohma Kanyonu" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.tripadvisor.com.tr/Attraction_Review-g1818023-d3510011-Reviews-Tohma_Canyon-Darende.html"
+                    target="_blank">
+                    <p>Malatya Tohma Kanyonu</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/malatya-ulu-camii-51120.webp" alt="Malatya Ulu Camii" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/eski-malatya-battalgazi-ulu-cami"
+                    target="_blank">
+                    <p>Maltya Ulu Camii</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <img src="img/Mövenpick-Malatya-Hotel-bina.jpg" alt="Mövenpick Malatya Hotel" class="kutu-image"
+                    onclick="openModal(this)">
+                <a href="https://movenpick.accor.com/en/europe/turkey/malatya/hotel-malatya.html" target="_blank">
+                    <p>Mövenpick Malatya Hotel</p>
+                </a>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-content">
+                <div id="caption"></div>
+            </div>
+
+            <div class="kutu">
+                <iframe width="100%" src="https://www.youtube.com/embed/cnoI_j6xzOA?si=IkzaAv-6iRen5GY-"
+                    title="YouTube video player" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    <a href="https://youtu.be/cnoI_j6xzOA?si=PqnMLDi-7whCgTOM"> 11 şehrimizde olduğu gibi Malatya’da da
+                        sadece evler değil, güzel bir yaşam inşa ediyoruz. </a>
+                </p>
+            </div>
+
+            <div class="kutu">
+                <iframe width="100%" src="https://www.youtube.com/embed/4N5ODyPcDP8?si=NpoU_QCxgvY3QM01"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    <a href="https://youtu.be/4N5ODyPcDP8?si=q4A3OAW36RXEfQ2c">
+                        MALATYA’DA 1 GÜNDE NE YENİR!!!
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="kutu">
+                <iframe width="100%" src="https://www.youtube.com/embed/a-nVoBhyGwM?si=WBRdsmVQ2uFwX0FR"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    <a href="https://youtu.be/a-nVoBhyGwM?si=yciiI52qIoCAYHj4">
+                        Malatya'da Mutlaka Görmeniz Gereken 20 Yer | gezilesiyer.com
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="kutu">
+                <iframe width="100%" src="https://www.youtube.com/embed/Vf0L7btiyU0?si=FWjiMuzD128KhaqQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    <a href="https://youtu.be/Vf0L7btiyU0?si=jgoOaSO4aidQamDW">
+                        Mustafa ÖZARSLAN - Malatya Malatya & Kaleden Kaleye & Malatya İki Yoldur
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="kutu">
+                <iframe width="100%" src="https://www.youtube.com/embed/okG5QPqjWr4?si=rYz71IgPScTr_oN-"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    <a href="https://youtu.be/okG5QPqjWr4?si=WDaY219TAvJzG-zh">
+                        Malatya Belgeseli / 2020
+                    </a>
+                </p>
+
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div id="basa-don">
+
+            <a href="index.html"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

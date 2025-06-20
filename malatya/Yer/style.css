@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: white;
+
+}
+
+#navbar {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 40px;
+    font-family: 'verdana', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+#navbar span {
+    color: black;
+    text-shadow: 0 0.2rem 0.4rem gray;
+
+
+}
+
+/* İÇİNDEKİLER */
+
+.baslik-1{
+    text-align: center;
+}
+
+#icindekiler {
+    width: 14%;
+    float: right;
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+
+}
+
+#tablo li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#tablo li {
+    list-style-type: none;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+
+}
+
+#tablo li:hover {
+    transition: box-shadow 0.3s ease;
+    background-color: cadetblue;
+    transform: scale(1.07);
+}
+
+#tablo li a:hover {
+    color: white;
+
+}
+
+#icindekiler b {
+    margin-left: 3%;
+    margin-bottom: 10px;
+}
+
+
+
+/* ANA MENÜ*/
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: none;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-bottom: 3px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: all 1s ease;
+}
+
+.dropdown-content a:hover {
+    transition: box-shadow 0.3s ease;
+    background-color: cadetblue;
+    transform: scale(1.07);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropbtn:hover {
+    background-color: gainsboro;
+
+}
+
+/* SAYFA İÇERİĞİ */
+
+#container-1 {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-left: 3%;
+    
+    margin-bottom: 50px;
+}
+#container-2 {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-baslik{
+    margin-top: 4%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* POST */
+
+.post {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem darkgrey;
+    transition: box-shadow 0.3s ease;
+    transition: all 1s ease;
+    border: 1px solid black;
+
+}
+
+.post:hover {
+    transform: scale(1.01);
+    background-color: #e2dfdf;
+}
+
+.post h1 {
+    text-shadow: 0 0.2rem 0.4rem darkgrey;
+    font-size: 40px;
+}
+
+.post img {
+    width: 35%;
+    height: 20%;
+    border-radius: 15%;
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.baslik {
+    font-size: 25px;
+}
+
+.web-site a {
+    font-size: 20px;
+    color: black;
+}
+
+.web-site a:hover {
+    color: red;
+}
+
+
+/* İÇERİK */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    background-color: #f1f1f1;
+    padding: 0 10px;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: all 1s ease;
+
+
+}
+
+.accordion-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: all 1s ease;
+    text-align: center;
+
+
+
+
+}
+
+.accordion-title:hover {
+    background-color: #3e8e41;
+}
+
+.accordion.active .accordion-title {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+#basa-don a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease;
+    border-radius: 75%;
+    margin-left: 45%;
+    
+}
+#basa-don a:hover{
+    transform: scale(1.01);
+    background-color: gray;
+}
+
+/* İÇERİK*/
+
+.icerik h2 {
+    text-align: center;
+}
+
+.icerik {
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    padding-right: 4%;
+    margin-bottom: 20px;
+
+
+
+}
+
+.icerik ul {
+    list-style: none;
+}
+
+.icerik-kutu {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+.icerik-kutu-adres{
+   text-align: center;
+   width: 100%;
+   
+}
+.icerik-kutu-detay iframe{
+    width: 100%;
+}
